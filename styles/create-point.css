@@ -151,3 +151,9 @@ form button:hover{
     border: 2px solid #34cb79;
 
 }
+
+/*bloquear o clique nos filhos de cada item dos quadros do itemToCollect*/
+.items-grid li img,
+.items-grid li span {
+    pointer-events:none;
+}
