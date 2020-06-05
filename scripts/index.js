@@ -1,3 +1,5 @@
+//script para ativação do modal
+
 const buttonSearch = document.querySelector("#page-home main a")
 
 const modal = document.querySelector("#modal")
